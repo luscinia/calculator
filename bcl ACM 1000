@@ -1,0 +1,16 @@
+import java.util.*; 
+
+public class Main{
+public static void main(String[]args){
+    int count,sum;
+    Scanner scan=new Scanner(System.in);
+    count = scan.nextInt();
+    int Array[][]=new int[count][2];
+     for(int n=0;n<count;n++)
+    {Array[n][0]=scan.nextInt();
+    Array[n][1]=scan.nextInt();}
+    for(int n=0;n<count;n++)
+    {sum=Array[n][0]+Array[n][1];
+    System.out.println(sum);}
+}
+}
